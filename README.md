@@ -1,5 +1,5 @@
 # smartbin
-Smartbin is a device which is operated from far distance.
+Smartbin is a device which is operated from a distance.
 # code:
 int pin1=2;
 int pin2=3;
@@ -30,13 +30,15 @@ default : break;
    }
    delay(50);
 }
-# Explaination:
+# Explanation:
 Smartbin is operated by using bluetooth module. We can operate it with any device from anywhere(10 meters range).It opens when 'a' command is given and closes when 'b' command is given.
 It has a motor.This motor acts like open and close gate.
 This motor is operated by a LN_28 motor driver.
 # Other Applications
 >Smart Garage.
+
 >Smart Gate.
+
 >Smart Door.
 ![smartbin](https://user-images.githubusercontent.com/91971716/136941421-85bf7530-4d60-4025-bb17-30d1ae923410.jpg)
 ![smartbin](https://user-images.githubusercontent.com/91971716/136941561-0364afd1-5dce-4b09-a0ff-6b4170107efb.gif)
